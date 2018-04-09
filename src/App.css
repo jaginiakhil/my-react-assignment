@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#aside {
+  background: #141a21;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+   font-weight: 100;
+  padding: 24px 15px;
+  text-align: center;
+}
+
+footer {
+  background: #141a21;
+ color: #ccc;
+  display: block;
+ font-family: 'Open Sans', sans-serif;
+   font-weight: 100;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+section,
+aside {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+header,footer {
+margin: 0 0 24px 0;
+
+}
+
+section {
+  float: left;
+  width: 63%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.article_date {
+  color: #61dafb;
+}
+
+.article_title {
+  font-size: 1.2em;
+  font-weight:100;
+  color: #61dafb;
+}
+
+ article {
+  background: #141a21;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+   font-weight: 100;
+  padding: 24px 15px;
+  text-align: justify;
+}
+
+.header {
+  padding: 24px 15px;
+  background: #141a21;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+   font-weight: 100;
+  color: #61dafb;
+}
+
+.article_body{
+  color: #ccc;
+  line-height:25px;
+}
+
+hr{
+   border: none;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+}
+
+a {
+  color:#ccc;
+  text-decoration:none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  font-size:20px;
+}
+
+a:hover {
+  color: #61dafb;
+}
+
+li {
+    margin: 0 0 20px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,ul{
+ -webkit-padding-start: 0px;
+  -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
